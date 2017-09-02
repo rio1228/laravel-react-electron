@@ -16,7 +16,6 @@ const externalPlugins = new webpack.ExternalsPlugin('commonjs',[
     'global-shortcut',
     'ipc',
     'menu',
-    'menu',
     'menu-item',
     'fs',
     'power-monitor',
@@ -32,8 +31,7 @@ const externalPlugins = new webpack.ExternalsPlugin('commonjs',[
 
 module.exports = {
     entry: {
-        index:path.join(__dirname, '/view/app', 'index.js'),
-        login:path.join(__dirname, '/view/login', 'index.js')
+        index:path.join(__dirname, '/app', 'index.js')
     },
     output: {
         path: path.join(__dirname, 'out'),

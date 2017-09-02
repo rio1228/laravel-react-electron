@@ -3,7 +3,7 @@
 ## プロジェクトの作り方
 1. gitから落とす
 ```
-git clone https://github.com/rio1228/pos-electron.git
+git clone https://github.com/rio1228/laravel-react-electron.git
 ```
 2. package.jsonをinstall
 ```
